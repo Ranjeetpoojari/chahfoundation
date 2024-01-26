@@ -9,6 +9,7 @@
 .fs-14{font-size: 14px;}
 .fs-15{font-size:15px;}
 .fs-16{font-size:16px;}
+.fs-28{font-size: 28px;}
 .fs-18{font-size:calc(18px + (18 - 16) * (100vw - 320px) / (1920 - 320));}
 .fs-20{font-size:calc(20px + (20 - 16) * (100vw - 320px) / (1920 - 320));}
 .fs-24{font-size:calc(24px + (24 - 20) * (100vw - 320px) / (1920 - 320));}
@@ -23,6 +24,7 @@
 .fw-700{font-weight: 700;}
 .bg-prim{background-color: #E32325;}
 .bg-sec{background-color:  #FFE6DF;}
+.text-color{color: #FFE6DF;}
 .bg-black{background-color: #0B0706 !important;}
 .text-prim{color:#1D2130;}
 .font-prim{font-family: 'Inter', sans-serif; font-style: normal;}
@@ -51,3 +53,18 @@ header nav .navbar-brand img{height:100%; width:100%;}
 .what-aboutus .img-con2 img{width: 150px;height:150px;}
 .our_supportcard .support-logo{width: 120px!important; height:25px !important;overflow: hidden; object-fit: cover;}
 .our_supportcard .support-logo .logo{width:100%; height:100%; filter: grayscale(0);}
+.we_do_con div:first-child{width:70px;}
+.we_do_img-con{width: 480px;height: 658px; object-fit: cover; margin: auto; }
+.we_do_img-con img{width: 100%; height:100%;}
+/* campaign card start */
+.campaign-card{width:370px;}
+.campaign-card .campaignimg{width: 370px; height: 315px; object-fit: cover;}
+.campaign-card .campaignimg  img{width:100%; height:100%;}
+.campaign-content .campaign-heading{height:70px; width: 100%; overflow: hidden;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;word-wrap: break-word;}
+.campaign-content .heart-con{width:23px; height:23px;object-fit: cover;}
+.campaign-content .heart-con img{width: 100%; height: 100%;}
+.ourprojectcard{width: 411px;height: 421px;overflow: hidden;object-fit: cover;}
+.ourprojectcard img{width:100%; height: 100%;}
+.ourprojectcard .ourpoject_overlay{opacity: 0.9; border-radius: 25px;background-color: #000;top:0%;}
+.our_projectcontent{top:100%;}
+.ourprojectcard img:hover .ourpoject_overlay{top:0%}
