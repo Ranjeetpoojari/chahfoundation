@@ -63,8 +63,48 @@ header nav .navbar-brand img{height:100%; width:100%;}
 .campaign-content .campaign-heading{height:70px; width: 100%; overflow: hidden;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;word-wrap: break-word;}
 .campaign-content .heart-con{width:23px; height:23px;object-fit: cover;}
 .campaign-content .heart-con img{width: 100%; height: 100%;}
-.ourprojectcard{width: 411px;height: 421px;overflow: hidden;object-fit: cover;}
-.ourprojectcard img{width:100%; height: 100%;}
-.ourprojectcard .ourpoject_overlay{opacity: 0.9; border-radius: 25px;background-color: #000;top:0%;}
+.ourprojectcard{width: 411px;height: 421px;overflow: hidden;object-fit: cover;cursor: pointer;}
+.ourprojectcard img{width:100%; height: 100%;cursor: pointer;}
+.ourprojectcard .ourpoject_overlay{opacity: 0.5; border-radius: 25px;background-color: #000;width: 100%;height: 100%;top:100%;}
 .our_projectcontent{top:100%;}
-.ourprojectcard img:hover .ourpoject_overlay{top:0%}
+.ourprojectcard:hover .ourpoject_overlay{top: 0%; transition: all ease-in-out 0.3s;}
+.ourprojectcard:hover .our_projectcontent{top: 0%;transition: all ease-in-out 0.3s;}
+.faq_img{width:100px;height:100px;object-fit: contain;border-radius: 50%;padding: 20px 30px; background-color: #F1592A; top:-50px;left:45%;}
+.faq_img img{width: 100%;height:100%; border-radius: 50%;}
+.custom_faq_con{border-radius: 25px;margin-top: 150px;}
+/* .ourprojectcard img:hover  .ourpoject_overlay{top:0%} */
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: '\002B';
+    font-size: 22px;
+
+    border: 1px solid black;
+    border-radius: 50%;
+    padding-bottom: 32px;
+    padding-right: 23px;
+    padding-left: 7px;
+    background-image:none;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+    transition-behavior: normal;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: transform;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content: "\2212";
+    transform: none;
+}
+.accordion-button:focus{border-color:none; box-shadow: none; background-color: none;}
+.accordion-button:not(.collapsed) {color: black !important; background-color:  #FFE6DF!important; box-shadow: none;}
+.contribution{width: 100%; height:387px;object-fit: cover;}
+.contribution img{width: 100%; height:100%; border-radius: 25px;}
+.contribution .overlay{width: 100%; height:100%; background-color: #000;opacity: 0.5; border-radius: 25px;}
+.contribution .content{width: 100%; height:100%; display: flex; justify-content: center; flex-wrap: wrap;}
+.contribution .content h5{width: 75%;height: 50px;}
