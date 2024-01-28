@@ -53,3 +53,11 @@ $('#project').owlCarousel({
         }
     }
 });
+$(document).ready(function(){
+    
+    $('#donate-btn').on('click',function(){
+        event.preventDefault();
+        $("#donateform").addClass('d-none');
+        $("#donnerdetail").removeClass('d-none');
+    })
+});
