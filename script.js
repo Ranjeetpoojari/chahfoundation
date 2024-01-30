@@ -60,4 +60,9 @@ $(document).ready(function(){
         $("#donateform").addClass('d-none');
         $("#donnerdetail").removeClass('d-none');
     })
+    $('#back-btn').on('click',function(){
+        event.preventDefault();
+        $("#donateform").removeClass('d-none');
+        $("#donnerdetail").addClass('d-none');
+    });
 });
