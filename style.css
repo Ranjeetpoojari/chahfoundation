@@ -145,6 +145,11 @@ header nav .navbar-brand img{height:100%; width:100%;}
     overflow: hidden; display: -webkit-box;-webkit-box-orient: vertical; word-wrap: break-word;
 }
 /* activity page end */
+/* activity detailpage */
+.activitydetail_img{width:calc(320px + (500 - 320px) * (100vw - 320px) / (1920 - 320));height: auto;aspect-ratio: 16/9; object-fit: cover;}
+.activitydetail_img img{width: 100%;height: 100%;}
+.activitydetail .views  a:hover{color:#E32325;}
+/* activity detailpage */
 
 @media only screen and (max-width: 600px) {
     .index_banner_con .banner-content{top:10%;left:5%;} 
